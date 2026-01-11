@@ -1,0 +1,73 @@
+.heart{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  fill: none;
+  cursor: pointer;
+}
+
+.heart.liked{
+  filter: invert(32%) sepia(85%) saturate(7483%) hue-rotate(345deg);
+  fill: red;
+  stroke: red;
+}
+
+
+.price_likes{
+  display: flex;
+  justify-content: space-between;
+}
+
+.likes_liked{
+  display: flex;
+  gap: 10px;
+}
+
+.single_comment{
+  display: flex;
+  gap: 20px;
+  background-color: #0D3240 ;
+  border-radius: 10px;
+  padding: 8px 12px;
+  margin-bottom: 12px;
+  width: 100%;
+
+}
+
+.comment_name{
+  min-width: 120px; 
+}
+
+.kommentare_ptag{
+  margin-left: 10px;
+}
+
+.comment_text{
+  flex: 1;        
+  min-width: 0;   
+  overflow-wrap:anywhere;
+}
+
+.comment_content{
+  height: 150px;
+  scroll-behavior: initial;
+  overflow-x: auto;
+  
+}
+
+form{
+  display: flex;
+  gap: 10px;
+}
+
+.text_area{
+  width: 400px;
+  margin-left: 10px;
+  color: black;
+}
+
+
+.price_ptag{
+ color: red;
+
+}

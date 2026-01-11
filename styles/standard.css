@@ -1,0 +1,33 @@
+:root{
+    --bg_darkblue_dark: #06171e;
+    --bg_darkblue_light: #09212A;
+    --bg_blue_dark: #0D3240;
+    --bg_blue_light: #124658;
+    --globalwhite: rgb(255, 255, 255);
+    --globalblurywhite: rgba(255, 255, 255, 0.3);
+    --globalgreen: rgb(37, 118, 29);
+    --globallightgray: rgb(233, 228, 228);
+    --globaldarkgray: rgb(62, 62, 62);
+
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+  
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+h3, p {
+    font-family: "Viga", sans-serif;
+
+}
+
